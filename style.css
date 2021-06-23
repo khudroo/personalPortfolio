@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .3px;
+    word-spacing: 1px;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+img{
+    max-width: 100%;
+}
+/* Menu Section */
+.menu{
+    left: 0;
+}
+#menu ul{
+    display: flex;
+    right: 0;
+    position: relative;
+    justify-content: flex-end;
+   
+}
+#menu ul li{
+    list-style: none;
+}
+#menu ul li a{
+    padding: 16px 30px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+#menu ul li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+/* Me Section */
+#me{
+    width: 100%;
+}
+#me::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.main_content_left{
+    width: 50%;
+    float: left;
+    padding: 100px 0;
+}
+
+.main_content_left h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #363859;
+}
+h1.myColor{
+    color: #ff8367;
+}
+
+.main_content_right{
+    width: 50%;
+    float: left;
+}
+.main_content_left p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+button.btn {
+    border: none;
+    padding: 11px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    background: linear-gradient(#b94947, #fc7762);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+button.btn:hover{
+    background: linear-gradient(#fc7762,#b94947);
+
+}
+
+/* About Section */
+#about::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.bgTwo{ 
+    width: 50%;
+    float: left;
+    padding: 100px 0;
+    position: relative;
+}
+
+
+/* Project Section */
+
+
+section#project {
+    background: #f8f9fc;
+    width: 100%;
+}
+
+section#project h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+}
+.color-me{
+    color: #b94947;
+}
+.project_main_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_post{
+    padding: 0px;
+    background: #fff;
+    box-shadow: 10px 10px 25px #c7c7c7;
+    border-radius: 15px;
+}
+
+.project_main_content >div{
+    margin: 0px 10px;
+}
+
+.post_content img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.post_content {
+    padding: 15px;
+}
+
+.post_content h3 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.project_main_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.post_two{
+    background: #363859;
+    color: #f8f9fc;
+}
+/* Live Chat Section */
+#live_chat{
+    padding-top: 100px;
+    
+}
+#live_chat img{
+    width: 70%;
+    text-align: center;
+}
+
+#live_chat img {
+    width: 70%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+
+}
+
+
+.chat_content{
+    position: relative;
+    left: 72%;
+    top: -110px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+
+
+.chat_content h1 {
+    color: #fff;
+    font-size: 61px;
+    margin-right: 170px;
+}
+
+
+button.btn.live {
+    position: relative;
+    top: -34px;
+}
+/* Footer Section */
+#footer{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#footer h5{
+    font-size: 27px;
+    color: #afafaf;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+#footer h2{
+    font-size: 49px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    letter-spacing: 0;
+    word-spacing: 0px;
+    margin-bottom: 15px;
+}
+
+
+#footer .social_icon img{
+    width: 39px;
+    margin-left: 50px;
+}
+#footer .social_icon img:nth-child(1){
+    margin-left: 0px;
+    padding-top: 20px;
+}
